@@ -1,0 +1,24 @@
+Expr ;,scan,while ( BoolExpr ) Stmt,if ( BoolExpr ) Stmt Stmt’’,POP,Type identifier ;,Type identifier ;,{ Stmt',POP,scan,scan,;,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,POP
+StmtList },scan,StmtList },StmtList },POP,StmtList },StmtList },StmtList },},scan,scan,StmtList },scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,POP
+Expr ;,scan,e,e,ElsePart,e,e,e,e,scan,scan,e,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,e
+scan,scan,scan,scan,scan,Type identifier ;,Type identifier ;,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+POP,scan,scan,scan,scan,int,float,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,while ( BoolExpr ) Stmt,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,scan,if ( BoolExpr ) Stmt  IfStmt’,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,scan,scan,ElsePart,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+POP,scan,POP,POP,else Stmt,POP,POP,POP,POP,scan,scan,POP,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,POP
+scan,scan,scan,scan,scan,scan,scan,{ CompoundStmt’,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+StmtList },scan,StmtList },StmtList },scan,StmtList },StmtList },StmtList },StmtList },scan,scan,StmtList },scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+Expr ; StmtList’,scan,while ( BoolExpr ) Stmt StmtList’,if ( BoolExpr ) Stmt StmtList’’’,scan,Type identifier ; StmtList’,Type identifier ; StmtList’,{ StmtList’’,POP,scan,scan,; StmtList’,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+Stmt StmtList’,scan,Stmt StmtList’,Stmt StmtList’,scan,Stmt StmtList’,Stmt StmtList’,Stmt StmtList’,e,scan,scan,Stmt StmtList’,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+StmtList } StmtList’,scan,StmtList } StmtList’,StmtList } StmtList’,scan,StmtList } StmtList’,StmtList } StmtList’,StmtList } StmtList’,} StmtList’,scan,scan,StmtList } StmtList’,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+StmtList’,scan,StmtList’,StmtList’,ElsePart Stmtlist’,StmtList’,StmtList’,StmtList’,e,scan,scan,StmtList’,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+identifier Compare Mag,scan,scan,scan,scan,scan,scan,scan,scan,scan,POP,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+POP,POP,scan,scan,scan,scan,scan,scan,scan,POP,scan,scan,scan,scan,scan,scan,scan,<,>,<=,>=,<>,==,scan
+identifier = Mag,scan,scan,scan,scan,scan,scan,scan,scan,scan,POP,POP,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+Term Mag’’,Term Mag’’,scan,scan,scan,scan,scan,scan,scan,Term Mag’’,POP,POP,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,e,e,- Term Mag',+ Term Mag',scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,POP,POP,scan,scan,* Factor Mag’,/ Factor Mag’,scan,scan,scan,scan,scan,scan,scan,scan
+identifier Term’,number Term,scan,scan,scan,scan,scan,scan,scan,( Expr ) Term’,POP,POP,POP,POP,POP,POP,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,e,e,e,e,* Factor Term’,/ Factor Term’,scan,scan,scan,scan,scan,scan,scan,scan
+identifier,number,scan,scan,scan,scan,scan,scan,scan,( Expr ),POP,POP,POP,POP,POP,POP,scan,scan,scan,scan,scan,scan,scan,scan
